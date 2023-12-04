@@ -8,8 +8,8 @@
     align-items: center;
     color: white;
     background: #7F00FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);   */
+    /* background: linear-gradient(to right, #E100FF, #7F00FF);  */
 
     text-align: center;
     padding: 0 20px;
@@ -66,3 +66,75 @@
         font-size: 1rem;
     }
   }
+
+  .subject-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust as needed for spacing */
+    /* margin-bottom: 20px; */
+    margin-top: 2%;
+  }
+  
+  .subject-button {
+    display: flex;
+    align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the content horizontally */
+    font-size: 1.2rem; /* Adjust as needed */
+    font-weight: bold; /* Make the text bold */
+    text-transform: uppercase; /* Uppercase the button text */
+    padding: 15px 30px; /* Adjust padding as needed */
+    width: 200px; /* Set a fixed width for all buttons */
+    height: 100px; /* Set a fixed height for all buttons */
+    color: #FFF;
+    background-size: cover; /* Ensure the background covers the button */
+    background-position: center; /* Center the background image */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  /* Individual background images for each subject */
+  .ib-maths {
+    background-image: url('C:\Dev\Code\stem-tutoring-website\src\components\images\math.png'); /* Update the path to your images */
+  }
+  
+  .ib-biology {
+    background-image: url('C:\Dev\Code\stem-tutoring-website\src\components\images\biology.png');
+  }
+  
+  .ib-chemistry {
+    background-image: url('C:\Dev\Code\stem-tutoring-website\src\components\images\chemistry.png');
+  }
+  
+  .ib-physics {
+    background-image: url('C:\Dev\Code\stem-tutoring-website\src\components\images\physics.png');
+  }
+  
+  /* Hover and active states for buttons */
+  .subject-button:hover, .subject-button:active {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .subject-button:active {
+    transform: translateY(1px);
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media screen and (max-width: 768px) {
+    .hero-container h1 {
+      font-size: 2.5rem;
+    }
+  
+    .subject-button {
+      font-size: 1rem;
+      padding: 10px;
+      width: 150px; /* Adjust width for smaller screens */
+      height: 80px; /* Adjust height for smaller screens */
+    }
+  }
+  
