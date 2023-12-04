@@ -6,8 +6,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
-    background-color: white;
+    color: white;
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     text-align: center;
     padding: 0 20px;
     border-top: 1px solid #eaeaea;
@@ -22,8 +25,9 @@
     font-size: 1.5rem; 
     margin-bottom: 0.25rem;
     padding: 10px 20px;
-    background-color: #007bff; 
-    color: white; 
+    /* background-color: #007bff;  */
+    background-color: white;
+    color: #7F00FF; 
     border: none; 
     border-radius: 5px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
@@ -32,12 +36,14 @@
   }
   
   .hero-container button:hover {
-    background-color: #0056b3; 
+    /* background-color: #0056b3;  */
+    background-color: #e3d3f2;
     transform: translateY(-2px); 
   }
   
   .hero-container button:active {
-    background-color: #00408b;
+    background-color: #ead5ff;
+    /* background-color: #00408b; */
     transform: translateY(1px); 
   }  
   

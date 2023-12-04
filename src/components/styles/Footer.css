@@ -37,7 +37,7 @@
     text-decoration: none;
   }
   .footer-column ul li a:hover {
-    color: #1A73E8;
+    color: #7F00FF;
     text-decoration: none;
   }
   a {
@@ -45,7 +45,7 @@
     text-decoration: none;
   }
   a:hover {
-    color: #1A73E8;
+    color: #7F00FF;
   }
   .discord-link {
     display: flex;
