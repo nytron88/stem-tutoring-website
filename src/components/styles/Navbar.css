@@ -133,6 +133,7 @@ header .nav-close-btn {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      z-index: 100;
   
       visibility: hidden; /* Initially hidden */
       opacity: 0; /* Fully transparent */
