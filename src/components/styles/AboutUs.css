@@ -72,4 +72,33 @@
       font-size: 1rem;
     }
   }
+
+  /* Add this inside your AboutUs.css or equivalent stylesheet */
+
+@media (max-width: 768px) {
+  .about-container {
+    /* Ensure text is centered */
+    text-align: center;
+  }
+
+  .info-cards {
+    /* Stack cards vertically instead of horizontally */
+    flex-direction: column;
+    align-items: center; /* This will center the cards */
+  }
+
+  .info-card {
+    /* Set the width to a percentage or fixed value as needed */
+    width: 100%; /* You might want to set a max-width here */
+    /* Remove any margin or padding that might affect centering */
+    margin: 0;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .icon {
+    /* Adjust icon size if necessary */
+    font-size: 2rem; /* Example size */
+  }
+}
   
