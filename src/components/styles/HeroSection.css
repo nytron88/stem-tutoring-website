@@ -97,8 +97,8 @@
   }
   
   /* Individual background images for each subject */
-  .ib-maths {
-    background-image: url('C:\Dev\Code\stem-tutoring-website\src\components\images\math.png'); /* Update the path to your images */
+/*  .ib-maths {
+    background-image: url('C:\Dev\Code\stem-tutoring-website\src\components\images\math.png'); 
   }
   
   .ib-biology {
@@ -112,6 +112,7 @@
   .ib-physics {
     background-image: url('C:\Dev\Code\stem-tutoring-website\src\components\images\physics.png');
   }
+*/
   
   /* Hover and active states for buttons */
   .subject-button:hover, .subject-button:active {
