@@ -1,0 +1,75 @@
+.about-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff; /* Assuming a light theme */
+  }
+  
+  .about-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-container p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .info-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  .info-card {
+    width: 30%;
+    height: 20%;
+    border: 1px solid #eaeaea;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-card h3 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  .info-card p {
+    font-size: 1rem;
+  }
+  
+  .icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-container a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .about-container a:hover {
+    color: #7F00FF;
+  }
+  /* Responsive design adjustments can be made as needed */
+  @media (max-width: 768px) {
+    .info-cards {
+      flex-direction: column;
+    }
+    
+    .info-card {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    .about-container h1 {
+      font-size: 2.5rem;
+    }
+  
+    .about-container p {
+      font-size: 1rem;
+    }
+  }
+  
