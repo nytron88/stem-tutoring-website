@@ -29,28 +29,28 @@ function CardSlider() {
     <div className='slider-container'>
       <h1>Founding Officers</h1>
       <Slider {...settings}>
-        <div className='card'>
-          <img src="https://via.placeholder.com/400x200" alt="Placeholder" />
+      <div className='card'>
+          <img src="https://via.placeholder.com/400x200?text=Ryan" alt="Ryan" />
           <h3>Ryan Shrestha</h3>
           <p>President</p>
         </div>
         <div className='card'>
-          <img src="https://via.placeholder.com/400x200" alt="Placeholder" />
+          <img src="https://via.placeholder.com/400x200?text=Arjun" alt="Arjun" />
           <h3>Arjun Pemmasani</h3>
           <p>Vice-President</p>
         </div>
         <div className='card'>
-          <img src="https://via.placeholder.com/400x200" alt="Placeholder" />
+          <img src="https://via.placeholder.com/400x200?text=Siddhant" alt="Siddhant" />
           <h3>Siddhant Jain</h3>
           <p>Secretary and Web Developer</p>
         </div>
         <div className='card'>
-          <img src="https://via.placeholder.com/400x200" alt="Placeholder" />
+          <img src="https://via.placeholder.com/400x200?text=Anand" alt="Anand" />
           <h3>Anand Patil</h3>
           <p>Club Manager</p>
         </div>
         <div className='card'>
-          <img src="https://via.placeholder.com/400x200" alt="Placeholder" />
+          <img src="https://via.placeholder.com/400x200?text=Akhilesh" alt="Akhilesh" />
           <h3>Akhilesh Vattumilli</h3>
           <p>Media and Communications</p>
         </div>
