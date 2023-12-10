@@ -3,7 +3,7 @@
     color: #333;
     padding: 2rem 0;
     font-family: 'Poppins', sans-serif;
-    border-top: 1px solid #eaeaea;
+    border-top: 1px solid rgba(0, 0, 0, 0.313);
   }
   
   .footer-container {
@@ -67,7 +67,7 @@
     padding-top: 1rem;
     margin-top: 20px;
     margin-bottom: 10px;
-    border-top: 1px solid #eaeaea;
+    border-top: 1px solid rgba(0, 0, 0, 0.313);
   }
   
   .footer-bottom p {

@@ -1,0 +1,53 @@
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .slider-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    max-width: 800px;
+    margin: 0 10px;
+    border-radius: 4px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .slick-next:before, .slick-prev:before {
+    color: black; 
+  }
+  
+  .slick-prev {
+    left: -25px;
+    z-index: 1;
+  }
+  
+  .slick-next {
+    right: -25px;
+    z-index: 1;
+  }
+
+
+  .slick-arrow.custom-arrow {
+    color: grey !important;
+    font-size: 20px !important; 
+  }
+  
+  .slick-arrow.custom-arrow:hover {
+    color: #7F00FF !important; 
+  }

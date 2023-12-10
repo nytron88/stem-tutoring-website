@@ -2,6 +2,7 @@
     text-align: center;
     padding: 50px 20px;
     background-color: #fff; /* Assuming a light theme */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.313);
   }
   
   .about-container h1 {
@@ -88,16 +89,13 @@
   }
 
   .info-card {
-    /* Set the width to a percentage or fixed value as needed */
     width: 100%; /* You might want to set a max-width here */
-    /* Remove any margin or padding that might affect centering */
     margin: 0;
     margin-top: 20px;
     padding: 20px;
   }
 
   .icon {
-    /* Adjust icon size if necessary */
     font-size: 2rem; /* Example size */
   }
 }
